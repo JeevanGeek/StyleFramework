@@ -16,8 +16,8 @@ Pod::Spec.new do |spec|
   # spec.osx.deployment_target = "10.7"
   # spec.watchos.deployment_target = "2.0"
   # spec.tvos.deployment_target = "9.0"
-  spec.source       = { :git => "https://github.com/JeevanGeek/StyleFramework.git", :tag => "#{spec.version}" }
-  spec.source_files  = "StyleFramework/StyleFramework/**/*.{h,m}"
+  spec.source       = { :git => "https://github.com/JeevanGeek/StyleFramework.git", :tag => spec.version.to_s}
+  spec.source_files  = "Pods/**/*"
   # spec.exclude_files = "Classes/Exclude"
   # spec.public_header_files = "Classes/**/*.h"
   # spec.resource  = "icon.png"
